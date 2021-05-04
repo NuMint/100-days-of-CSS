@@ -1,2 +1,2 @@
 # 100-days-of-CSS
-learning CSS
+I'm learning CSS
