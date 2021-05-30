@@ -1,0 +1,52 @@
+<html>
+<head>
+<style> 
+body{
+    text-align: center;
+}
+.g1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+}
+.g2 {
+  display: grid;
+  grid-template-columns: 10% 25fr auto 15em;
+  gap: 30px;
+}
+
+div div {
+  text-align: center;
+  border: 1px solid black;
+  background-color: rgb(241, 245, 16);
+}
+</style>
+</head>
+<body>
+
+<h1>The gap Property</h1>
+<p>Use the <em>gap</em> property to specify the size of the gap between the rows and the columns.</p>
+<p>This grid has a 50px gap between the rows and the columns:</p><br>
+
+<h2>Auto and Gap 20px</h2>
+<div class="g1">
+    <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+</div>
+<br>
+<h2>Free Style by "10% 25fr auto 15em" and Gap 30px</h2>
+<div class="g2">
+    <div>2</div>
+    <div>1</div>
+    <div>3</div>  
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+  </div>
+
+</body>
+</html>
