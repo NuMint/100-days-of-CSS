@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title> Day 45 Animation-Name</title>
+    <style>
+        .box-spen {
+            background-color: chartreuse;
+            height: 300px;
+            width: 300px;
+            animation-name: spen;
+            animation-duration: 2s;
+            clip-path: polygon(100% 100%, 36% 100%, 35% 0%, 65% 0%, 64% 76%, 100% 76%);
+        }
+
+        @keyframes spen {
+            0% {
+                transform: rotate (0.5s);
+            }
+
+            100% {
+                transform: rotate (0.5s);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box-spen"></div>
+</body>
+
+</html>
